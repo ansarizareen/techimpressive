@@ -1,0 +1,28 @@
+{
+  "employees": [
+    {
+      "name": "Shreya Khanna",
+      "position": "software Engineer",
+      "department": "IT",
+      "id": 1
+    },
+    {
+      "name": "Bhavna Mishra",
+      "position": "Product Manager",
+      "department": "ME",
+      "id": 4
+    },
+    {
+      "name": "Rishabh kumar",
+      "position": "Human Resource",
+      "department": "EC",
+      "id": 5
+    },
+    {
+      "name": "Ankita Verma",
+      "position": "Software Developer ",
+      "department": "IT",
+      "id": 6
+    }
+  ]
+}
