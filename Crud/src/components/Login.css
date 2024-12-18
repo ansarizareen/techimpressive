@@ -1,0 +1,38 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Center vertically */
+  background-color: #f7f7f7; /* Light background color */
+}
+
+.login-box {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px; /* Fixed width */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form groups */
+}
+
+.error-text {
+  color: red;
+  font-size: 0.9em;
+}
+
+button {
+  width: 100%; /* Make buttons full-width */
+  margin-top: 10px; /* Space above the buttons */
+}
+
+.btn {
+  display: block; /* Ensures buttons are block elements */
+}
+
+/* Additional styles for the Cancel button to ensure spacing */
+.btn-secondary {
+  margin-top: 10px; /* Space between Submit and Cancel buttons */
+}

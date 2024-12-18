@@ -1,0 +1,39 @@
+.certificate-container {
+    position: relative;
+    width: 800px;  /* Adjust the width to match the image */
+    height: 600px;  /* Adjust the height to match the image */
+}
+
+.certificate-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.certificate-text {
+    position: absolute;
+    font-family: 'Cursive', sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+.name {
+    top: 250px;  /* Adjust positioning to place name correctly */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 36px;
+}
+
+.award {
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 28px;
+}
+
+.date {
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+}

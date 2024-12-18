@@ -1,0 +1,11 @@
+.employee-actions {
+    display: flex; /* Align buttons in a row */
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .action-button {
+    padding: 8px 12px; /* Adjust padding as necessary */
+    border-radius: 4px; /* Round the corners */
+    cursor: pointer;
+  }
+  

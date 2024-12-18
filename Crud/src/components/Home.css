@@ -1,0 +1,46 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px; /* Adjust padding for header */
+    background: linear-gradient(90deg, #4a90e2, #0072bc);
+    color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Full width for the header */
+    position: sticky; /* Keeps the header at the top */
+    top: 0;
+    z-index: 1000; /* Keeps header above other elements */
+}
+
+.header-title {
+    font-size: 2rem; /* Larger font for the title */
+    font-weight: bold;
+    margin: 0; /* No margin for header title */
+}
+
+.logout-button {
+    padding: 8px 16px; /* Padding for the button */
+    border: none;
+    background-color: #ff4d4d; /* Background color for logout */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem; /* Font size for button */
+    transition: background-color 0.3s, transform 0.3s; /* Transition effects */
+    cursor: pointer; /* Changes cursor to pointer */
+    width: auto; /* Set width to auto to avoid stretching */
+    min-width: 100px; /* Set a minimum width for button */
+}
+
+.logout-button:hover {
+    background-color: #e60000; /* Darker red on hover */
+    transform: scale(1.05); /* Scale effect on hover */
+}
+
+.content {
+    padding: 20px; /* Space for the content */
+}
+
+.welcome-title {
+    font-size: 1.5rem; /* Size for welcome title */
+    margin-bottom: 20px; /* Space below title */
+}
