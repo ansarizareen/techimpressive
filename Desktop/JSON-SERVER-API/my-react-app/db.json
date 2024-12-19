@@ -1,0 +1,19 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "department": "Software Development"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "department": "Human Resources"
+    },
+    {
+      "name": "Nitin Kansal",
+      "department": "CSE",
+      "id": 3
+    }
+  ]
+}

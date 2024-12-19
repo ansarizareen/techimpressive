@@ -1,0 +1,84 @@
+/* General styling for body */
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #f9f9f9, #e0e0e0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container for login card */
+  .login-container {
+    width: 360px;
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Title for the form */
+  .login-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  
+  /* Input styling */
+  .login-container input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background: #f5f5f5;
+    transition: border-color 0.3s;
+  }
+  
+  /* Input focus state */
+  .login-container input:focus {
+    border-color: #007bff;
+    outline: none;
+    background: #fff;
+  }
+  
+  /* Submit button */
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  /* Submit button hover state */
+  .login-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Link for forgotten password */
+  .login-container .forgot-password {
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Forgot password hover state */
+  .login-container .forgot-password:hover {
+    text-decoration: underline;
+  }
+  
